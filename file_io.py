@@ -12,7 +12,7 @@ info[info.Age>18].to_csv('files/adults.csv',index=None)
 import csv
 
 
-with open('data.csv') as ifile,open('adults.csv','w') as ofile:
+with open('data.csv') as ifile,open('files/adults.csv','w') as ofile:
 
     reader = csv.DictReader(ifile) 
     fields = reader.fieldnames    
