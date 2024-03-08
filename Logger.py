@@ -26,7 +26,6 @@ def search_log(log_file, search_keyword):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-# Example usage:
 log_file_path = 'example.log'
 search_keyword = 'Error'
 
